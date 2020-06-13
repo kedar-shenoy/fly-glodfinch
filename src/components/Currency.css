@@ -1,0 +1,37 @@
+.root-div {
+  background-color: blanchedalmond;
+  margin: 50px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.link-btn {
+  background-color: #f1f1f1;
+  margin: 20px;
+  color: black;
+  border-radius: 10px;
+  border-color: black;
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+  align-items: center;
+}
+
+form > div {
+  padding: 10px;
+}
