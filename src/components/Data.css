@@ -24,8 +24,6 @@
   flex-wrap: wrap;
 }
 
-.person {
+li {
   margin: 10px;
-  background-color: aliceblue;
-  padding: 10px;
 }

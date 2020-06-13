@@ -14,11 +14,7 @@ class Data extends React.Component {
       get names() {
         return this.loading
           ? "Loading..."
-          : this.nameList.map((name) => (
-              <li className="person" key={name}>
-                {name}
-              </li>
-            ));
+          : this.nameList.map((name) => <li key={name}>{name}</li>);
       },
     });
   }

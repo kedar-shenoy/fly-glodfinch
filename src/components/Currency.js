@@ -45,6 +45,11 @@ class Currency extends React.Component {
     e.preventDefault();
     if (this.currency_value === "" || this.currency_value === null) return;
 
+    if (isNaN(this.currency_value)) {
+      alert("Input not a number");
+      return;
+    }
+
     fetch(
       `https://free.currconv.com/api/v7/convert?q=${this.from_currency}_${this.to_currency}&compact=ultra&apiKey=dd8e835c3d0a875afe5e`
     )
